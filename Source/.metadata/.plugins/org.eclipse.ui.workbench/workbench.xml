@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="25" version="2.0">
+<workbenchAdvisor/>
+<window height="744" maximized="true" width="1016" x="184" y="24">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="30"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="148" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.scala-ide.sdt.core.toolbar" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="scala.texteditor.actionset" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="scala.tools.eclipse.ScalaClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="scala.tools.eclipse.ScalaSourceFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1381360335191" focus="true" label="Workspace - Scala">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="3"/>
+<part id="0"/>
+<part id="1"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="8"/>
+<part id="2"/>
+<part id="7"/>
+<part id="9"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="ScannerAssistant.scala" partName="ScannerAssistant.scala" path="/home/eli/Documents/PROJECT/Source/HooshkaScript/src/scanner/ScannerAssistant.scala" title="ScannerAssistant.scala" tooltip="HooshkaScript/src/scanner/ScannerAssistant.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HooshkaScript/src/scanner/ScannerAssistant.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="14301" selectionTopPixel="7880"/>
+</editor>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="Scanner.scala" partName="Scanner.scala" path="/home/eli/Documents/PROJECT/Source/HooshkaScript/src/scanner/Scanner.scala" title="Scanner.scala" tooltip="HooshkaScript/src/scanner/Scanner.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HooshkaScript/src/scanner/Scanner.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1680" selectionTopPixel="3288"/>
+</editor>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="Parser.scala" partName="Parser.scala" path="/home/eli/Documents/PROJECT/Source/HooshkaScript/src/parser/Parser.scala" title="Parser.scala" tooltip="HooshkaScript/src/parser/Parser.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HooshkaScript/src/parser/Parser.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="33955" selectionTopPixel="17740"/>
+</editor>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="HooshkaReader.scala" partName="HooshkaReader.scala" path="/home/eli/Documents/PROJECT/Source/HooshkaScript/src/HooshkaReader.scala" title="HooshkaReader.scala" tooltip="HooshkaScript/src/HooshkaReader.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HooshkaScript/src/HooshkaReader.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1257" selectionTopPixel="513"/>
+</editor>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="Expression.scala" partName="Expression.scala" path="/home/eli/Documents/PROJECT/Source/HooshkaScript/src/scanner/ast/Expression.scala" title="Expression.scala" tooltip="HooshkaScript/src/scanner/ast/Expression.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HooshkaScript/src/scanner/ast/Expression.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="917" selectionTopPixel="282"/>
+</editor>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="LLVM_generator.scala" partName="LLVM_generator.scala" path="/home/eli/Documents/PROJECT/Source/HooshkaScript/src/generator/LLVM_generator.scala" title="LLVM_generator.scala" tooltip="HooshkaScript/src/generator/LLVM_generator.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HooshkaScript/src/generator/LLVM_generator.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="1818" selectionTopPixel="340"/>
+</editor>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="LLVM_coder.scala" partName="LLVM_coder.scala" path="/home/eli/Documents/PROJECT/Source/HooshkaScript/src/generator/LLVM_coder.scala" title="LLVM_coder.scala" tooltip="HooshkaScript/src/generator/LLVM_coder.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HooshkaScript/src/generator/LLVM_coder.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6735" selectionTopPixel="3301"/>
+</editor>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="AppendixProducer.scala" partName="AppendixProducer.scala" path="/home/eli/Documents/PROJECT/Source/HooshkaScript/src/generator/AppendixProducer.scala" title="AppendixProducer.scala" tooltip="HooshkaScript/src/generator/AppendixProducer.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HooshkaScript/src/generator/AppendixProducer.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="257" selectionTopPixel="0"/>
+</editor>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="FileWriter.scala" partName="FileWriter.scala" path="/home/eli/Documents/PROJECT/Source/HooshkaScript/src/io/FileWriter.scala" title="FileWriter.scala" tooltip="HooshkaScript/src/io/FileWriter.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HooshkaScript/src/io/FileWriter.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="379" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="scala.tools.eclipse.ScalaSourceFileEditor" name="HooshkaPreter.scala" partName="HooshkaPreter.scala" path="/home/eli/Documents/PROJECT/Source/HooshkaScript/src/interpreter/HooshkaPreter.scala" title="HooshkaPreter.scala" tooltip="HooshkaScript/src/interpreter/HooshkaPreter.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HooshkaScript/src/interpreter/HooshkaPreter.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="586" selectionTopPixel="513"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.pathField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors (2 items)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="442" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="Aggregate for window 1381360335191">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="scala.tools.eclipse.javaelements.ScalaElementFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.m2e.MavenModuleFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="350" org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="309" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.priorityField="35" org.eclipse.ui.ide.resourceField="105"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+</views>
+<perspectives activePart="scala.tools.eclipse.ScalaSourceFileEditor" activePerspective="org.scala-ide.sdt.core.perspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="scala.tools.eclipse.PerspectiveFactory" id="org.scala-ide.sdt.core.perspective" label="Scala"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="scala.texteditor.actionset"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.scala-ide.sdt.ui.scalaMenu.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.scala-ide.sdt.core.consoleView"/>
+<new_wizard_action id="org.scala-ide.sdt.core.wizards.newProject"/>
+<new_wizard_action id="org.scala-ide.sdt.core.wizards.newNetProject"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.scala-ide.sdt.core.wizards.newClass"/>
+<new_wizard_action id="org.scala-ide.sdt.core.wizards.newTrait"/>
+<new_wizard_action id="org.scala-ide.sdt.core.wizards.newObject"/>
+<new_wizard_action id="org.scala-ide.sdt.core.wizards.newPackageObject"/>
+<new_wizard_action id="org.scala-ide.sdt.core.wizards.newApplication"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.scalaide.worksheet.wizards.newWorksheet"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="explorer">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7494199" ratioLeft="969" ratioRight="324" relationship="2" relative="explorer">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.1751938" ratioLeft="226" ratioRight="1064" relationship="2" relative="explorer"/>
+<info folder="true" part="problems" ratio="0.055555556" ratioLeft="37" ratioRight="629" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.74948454" ratioLeft="727" ratioRight="243" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4f321d41" ratio="0.9444444" ratioLeft="629" ratioRight="37" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.scala-ide.sdt.core.consoleView:HooshkaScript" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/HooshkaScript/src/interpreter/HooshkaPreter.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/HooshkaScript/src/scanner/ScannerAssistant.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/HooshkaScript/src/scanner/Scanner.scala"/>
+</editors>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1336" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="991" y="10"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1278" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1197" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1207" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1205" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1477" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1166" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1080" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1082" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1166" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="2044" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1817" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="2044" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1902" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1892" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1894" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1902" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="2044" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="2042" y="0"/>
+</item>
+<item historyLabel="ScannerAssistant.scala" index="1">
+<position info="not_deleted" x="10455" y="0"/>
+</item>
+<item historyLabel="Scanner.scala" index="2">
+<position info="not_deleted" x="1680" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="321" y="0"/>
+</item>
+<item historyLabel="Scanner.scala" index="2">
+<position info="not_deleted" x="1680" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="321" y="0"/>
+</item>
+<item historyLabel="Scanner.scala" index="2">
+<position info="not_deleted" x="1680" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="321" y="0"/>
+</item>
+<item historyLabel="ScannerAssistant.scala" index="1">
+<position info="not_deleted" x="14528" y="0"/>
+</item>
+<item historyLabel="Scanner.scala" index="2">
+<position info="not_deleted" x="1680" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="321" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1929" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="2005" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1975" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1977" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="2005" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1986" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="2003" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="2002" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="1988" y="9"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="402" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="624" y="0"/>
+</item>
+<item historyLabel="ScannerAssistant.scala" index="1">
+<position info="not_deleted" x="14301" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="624" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="622" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="681" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="681" y="0"/>
+</item>
+<item historyLabel="Scanner.scala" index="2">
+<position info="not_deleted" x="1680" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="681" y="0"/>
+</item>
+<item historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="587" y="0"/>
+</item>
+<item active="true" historyLabel="HooshkaPreter.scala" index="0">
+<position info="not_deleted" x="579" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="explorer"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@4f321d41"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="HooshkaPreter.scala" tooltip="HooshkaScript/src/interpreter/HooshkaPreter.scala">
+<persistable path="/HooshkaScript/src/interpreter/HooshkaPreter.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="FileWriter.scala" tooltip="HooshkaScript/src/io/FileWriter.scala">
+<persistable path="/HooshkaScript/src/io/FileWriter.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Writer.scala" tooltip="HooshkaScript/src/io/Writer.scala">
+<persistable path="/HooshkaScript/src/io/Writer.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="AppendixProducer.scala" tooltip="HooshkaScript/src/generator/AppendixProducer.scala">
+<persistable path="/HooshkaScript/src/generator/AppendixProducer.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="RefProducer.scala" tooltip="HooshkaScript/src/scanner/ast/RefProducer.scala">
+<persistable path="/HooshkaScript/src/scanner/ast/RefProducer.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Expression.scala" tooltip="HooshkaScript/src/scanner/Expression.scala">
+<persistable path="/HooshkaScript/src/scanner/Expression.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Ssa_trait.scala" tooltip="HooshkaScript/src/generator/Ssa_trait.scala">
+<persistable path="/HooshkaScript/src/generator/Ssa_trait.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="LLVM_generator.scala" tooltip="HooshkaScript/src/generator/LLVM_generator.scala">
+<persistable path="/HooshkaScript/src/generator/LLVM_generator.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="_package.scala" tooltip="HooshkaScript/src/generator/_package.scala">
+<persistable path="/HooshkaScript/src/generator/_package.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="HooshkaReader.scala" tooltip="HooshkaScript/src/scanner/HooshkaReader.scala">
+<persistable path="/HooshkaScript/src/scanner/HooshkaReader.scala"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="scala.tools.eclipse.ScalaClassFileEditor" name="List.class" tooltip="scala.collection.immutable.List">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=HooshkaScript/\/home\/eli\/Software\/eclipse_scala\/configuration\/org.eclipse.osgi\/bundles\/260\/1\/.cp\/lib\/scala-library.jar&lt;scala.collection.immutable(List.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="HooshkaReader.scala" tooltip="HooshkaScript/src/HooshkaReader.scala">
+<persistable path="/HooshkaScript/src/HooshkaReader.scala"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="scala.tools.eclipse.ScalaClassFileEditor" name="ArrayOps.class" tooltip="scala.collection.mutable.ArrayOps">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=HooshkaScript/\/home\/eli\/Software\/eclipse_scala\/configuration\/org.eclipse.osgi\/bundles\/260\/1\/.cp\/lib\/scala-library.jar&lt;scala.collection.mutable(ArrayOps.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test.hs" tooltip="HooshkaScript/src/scanner/test.hs">
+<persistable path="/HooshkaScript/src/scanner/test.hs"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="scala.tools.eclipse.ScalaClassFileEditor" name="Source$.class" tooltip="scala.io.Source$">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=HooshkaScript/\/home\/eli\/Software\/eclipse_scala\/configuration\/org.eclipse.osgi\/bundles\/260\/1\/.cp\/lib\/scala-library.jar&lt;scala.io(Source$.class"/>
+</file>
+</mruList>
+</workbench>

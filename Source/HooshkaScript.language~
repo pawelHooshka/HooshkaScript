@@ -1,0 +1,73 @@
+/**
+This is a syntax file that describes synatx of the HooshkaScript language
+Modifying this file means altering its syntax. This syntax file understands standard 
+regex expresions and special characters. If regex is to be used must be like this: regex:(some_regex)
+*/
+
+-- LEGEND:
+-- " " ----> optional syntax
+-- < > ----> compulsory syntax
+-- #   ----> heading
+-- ##  ----> alternative to a previous line
+-- \\  ----> possible values for a heading
+-- /** */ ----> Multi-line comment 
+-- x... ----> Possibly many or zero of x
+-- x ----> Any number of lines is possible
+-- #!heading ----> reference to previously defined heading #ARGS
+-- |   ----> or (exclusive)
+-- || ----> or
+-- END ----> end of this file
+-- START ----> start of this file
+-- ~[x, y, z]  ----> exclude x y z
+
+START
+
+#LOGICAL_OPERATOR
+\\<-->>|<|>|<&>|<&&>|<||>|<<-->>
+
+#CONDITIONAL_OPERATOR
+\\<==>|<>>|<<>|<>=>|<<=>
+
+#MATHEMATICAL_OPERATOR
+\\/^[*-/+^%=]$/
+
+#WORD
+\\[a-zA_Z0-9_ ]|#!MATHEMATICAL_OPERATOR|#!LOGICAL_OPERATOR|#!CONDITIONAL_OPERATOR
+
+#STATEMENT
+\\"#!WORD..."
+
+#LINE
+\\"#!STATEMENT..."
+
+#OBJECT
+\\<#!BASIC_TYPE>
+\\<#!ANY>
+\\<#!PROCEDURE>
+\\<#!ITERTOR>
+
+#BASIC_TYPE
+\\<int|real|bool|char|string>
+
+#ANY
+\\#!WORD ~[#!MATHEMATICAL_OPERATOR, #!LOGICAL_OPERATOR, #!CONDITIONAL_OPERATOR]
+ 
+#PROCEDURE
+\\"#!RETURN_TYPE" <proc("#!ARGUMENTS...")> "x" <endproc>
+\\"#!RETURN_TYPE" <proc("#!ARGUMENTS...")> <{> "x" <}>
+\\"#!RETURN_TYPE" <proc("#!ARGUMENTS...")> <{> "x" <return> <#!ANY> "x" <}>
+\\"#!RETURN_TYPE" <proc("#!ARGUMENTS...")> "x" <return> <#!ANY> "x" <endproc>
+
+#ITERATOR
+\\"#!YIELDED_TYPE" <iter("#!ARGUMENTS...")> "x" <yield> <#!ANY> "x" <enditer>
+\\"#!YIELDED_TYPE" <iter("#!ARGUMENTS...")> <{> "x" <yield> <#!ANY> "x" <}>
+
+#LOOP
+\\<Loop> "x" <endloop>
+\\<Loop> <for> <#!ANY> <over> <#!ITERATOR> "x" <endloop>
+\\<Loop> <{> "x" <}>
+
+#CONDITIONAL
+\\	
+
+END

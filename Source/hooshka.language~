@@ -1,0 +1,2 @@
+#PROCEDURES
+"int|real|bool|string|char|byte|[a-zA-Z]"

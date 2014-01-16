@@ -1,0 +1,30 @@
+package interpreter {
+
+import parser.Parser
+import generator.LLVM_generator
+
+  class HooshkaPreter(parserx: Parser) {
+    
+    val parser = parserx;
+    
+    def interpret() {
+      
+    }
+    
+    def interactive_ast_inspect(llvm: LLVM_generator) {
+      //rs -> right sibling; ls -> left sibling; v -> current node value; d(index) -> down the level (indexes from left to right); 
+      //u -> parent; c -> compile; q -> quit (all interpreter commands precede with '#')
+      var ast_root = parser.get_AST_root();
+      println(ast_root.toString());
+      
+      var line = Console.readLine();
+      var first_ch = line.charAt(0);
+      if (first_ch == '#') {
+        interactive_ast_inspect(llvm);
+      }else{
+        println(line);
+        interactive_ast_inspect(llvm);
+      }
+    }
+  }
+}

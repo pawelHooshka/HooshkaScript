@@ -1,0 +1,55 @@
+//package scanner
+
+import scala.io.Source
+import java.lang.String
+import scanner.ast.Expression
+import parser.Parser
+import scanner.Scanner
+import generator.LLVM_generator
+
+object Hooshka {
+  
+  var sources: Array[String] = null;
+
+  def validate_file(file: String): Boolean = {
+    var str_file = file.dropWhile(_ == ' ').reverse.dropWhile(_ == ' ').reverse; 
+    if (str_file.length() > 3 && str_file.endsWith(".hs")){
+      return true;
+    }
+    return false;
+  }
+  
+  def set_sources(arguments: Array[String]): Boolean = {
+    if(arguments.length > 0) {
+	  var error = false;
+	  for (arg <- arguments){
+	    var ok = validate_file(arg);
+	    if (!ok) {
+	      println(arg, " : ", "This is not a HooshkaScript file. ");
+	      error = true;
+	    }
+	  }
+	  if (error) {
+	    return false;
+	  }else{
+	    sources = arguments;
+	  }
+	}else{
+	  Console.err.println("Please eneter a file to compile.")
+	}
+    return true;
+  }
+  
+  
+  def main(args: Array[String]) {
+    var last_arg = args.length - 1;
+    var input_path = args(0);
+    var out_path = args(1);
+    var scanner: Scanner = new Scanner(input_path, null);
+    var parser: Parser = new Parser(scanner);
+    var llvm: LLVM_generator = new LLVM_generator(parser, out_path);
+    parser.parse();
+    
+    llvm.compile();
+  }
+}
